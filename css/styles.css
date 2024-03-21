@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*COLOR PALETTE*/
+:root {
+    --c-blue: #185B62; /*#222*/
+    --c-brown: #A1A38D; /*#222*/
+    --c-gold: #BC9230; /*#222*/
+    --c-white: #fff; /*#222*/
+    --c-black:#222; /*#fff*/
+    }
+    h1 {
+        font-family: 'Montserrat Alternates', sans-serif;
+        font-size: 4rem;
+        padding-bottom: 1rem;
+      }  
+    h2 {
+        font-size: 2.5rem;
+    }
+    h2, p, a, #tagline {
+        font-family: 'Noto Sans Khojki', sans-serif;
+        color: var(--c-black);
+    }
+    h1, a, #tagline {
+        color: var(--c-white);
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 2rem;
+        font-family: 'Montserrat Alternates';
+        font-weight: 800;
+        box-shadow: 2px 2px 4px var(--c-black);
+    }
+
+/*HEADER*/
+#icon {
+    width:auto;
+    height: 25rem;
+    margin: -10rem;
+    padding-top: 3rem;
+}
+header {
+    background-color: var(--c-blue);
+}
+nav {
+    text-align: right;
+    margin: -7rem 3rem 6rem 0;
+}
+a {
+    padding: .5rem;
+    font-size: 1.3rem;
+}
+a:link {
+    text-decoration: none;
+}
+a:hover {
+    color: var(--c-brown);
+}
+#nav-item-active {
+    border-bottom: 1px solid var(--c-white);
+    padding: .3rem;
+}
+#main-info {
+    padding: 4rem 4rem 0 4rem;
+    display: flex;
+    flex-direction: row;
+}
+#content {
+    padding: 6rem 0 0 2rem;
+}
+#header-button {
+    background-color: var(--c-brown);
+    color: var(--c-black);
+}
+#illustration {
+    width: 60rem;
+    margin-left: -14rem;
+}
+
+/*MAIN*/
+.project {
+    height: 28rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 8rem;
+}
+#project-one, #project-three{
+    flex-direction: row;
+}
+#project-two, #project-four{
+    flex-direction: row-reverse;
+}
+#project-one {
+    background-color: var(--c-white);
+}
+#project-two {
+    background-color: var(--c-brown);
+}
+#project-three {
+    background-color: var(--c-white);
+}
+#project-four {
+    background-color: var(--c-gold);
+}
+.square {
+    width: 80rem;
+    height: 20rem;
+    background-color: var(--c-blue);
+    padding: 5rem;
+    box-shadow: 2px 2px 4px var(--c-black);
+}
+.project-info {
+    padding: 4rem;
+}
+.project-button {
+background-color: var(--c-blue);
+color: var(--c-white);
+}
+
+/*FOOTER*/
+footer {
+    height: 8rem;
+    text-align: center;
+    color: var(--c-blue);
+    padding: 1rem;
+}
+.footer-icons {
+    color: var(--c-blue);
+}
