@@ -46,7 +46,7 @@
     width:auto;
     height: 25rem;
     margin: -10rem;
-    padding-top: 3rem;
+    padding: 3rem 0 3rem 0;
 }
 header {
     background-color: var(--c-blue);
